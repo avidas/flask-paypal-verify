@@ -21,7 +21,7 @@ def credit_card_form():
 @app.route("/create_payment", methods=["POST"])
 def create_payment():
 	'''
-	Set indent as sale for immediate payment
+	Set intent as sale for immediate payment
 	'''
 	print request.form
 	payment = paypalrestsdk.Payment({
