@@ -14,21 +14,23 @@
 
     <h2>Pay with Credit Card</h2>
     <div>
+
       <form action="/create_payment" method="POST" id="payment-form">
         <p>
           <label>Card Number</label>
-          <input type="text" size="20" autocomplete="off" data-encrypted-name="number" placeholder="xxxx xxxx xxxx xxxx" />
+          <input type="text" size="20" autocomplete="off" name="number" placeholder="xxxx xxxx xxxx xxxx" />
         </p>
         <p>
           <label>CVV</label>
-          <input type="text" size="4" autocomplete="off" data-encrypted-name="cvv" placeholder="" />
+          <input type="text" size="4" autocomplete="off" name="cvv2" placeholder="" />
         </p>
         <p>
           <label>Expiration Date</label>
-          <input type="text" size="2" name="month" placeholder="MM"  /> / <input type="text" size="4" name="year" placeholder="YYYY" />
+          <input type="text" size="2" name="expire_month" placeholder="MM"  /> / <input type="text" size="4" name="expire_year" placeholder="YYYY" />
         </p>
         <input type="submit" id="payment" value="Pay" />
       </form>
+
     </div>
   </body>
 </html>
