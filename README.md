@@ -1,6 +1,6 @@
 # flask-paypal
 
-Flask app for payment using python rest sdk
+Flask app for accepting credit card payment using python rest sdk
 
 pip is the package manager for Python. Go to http://www.pip-installer.org/ if you do not have it yet.
 

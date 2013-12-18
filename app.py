@@ -30,6 +30,7 @@ def create_payment():
 			"payment_method": "credit_card",
 			"funding_instruments": [{
 				"credit_card": {
+					"type": "visa",
 					"number": request.form["number"],
 					"expire_month": request.form["expire_month"],
 					"expire_year": request.form["expire_year"],
