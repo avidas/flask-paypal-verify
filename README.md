@@ -1,4 +1,4 @@
-# flask-paypal
+# flask-paypal-verify
 
 Flask app for accepting credit card payment using python rest sdk
 
